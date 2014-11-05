@@ -39,5 +39,7 @@ docker run \
 	calvingiles/data-science-docker-notebook
 ```
 
+### Automated docker builds
 
+Add an automated build on docker pointing at your forked repo to keep the docker hub images up to date. Then you can skip the build stage above and the latest version will be pulled from docker hub.
 
