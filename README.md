@@ -16,7 +16,11 @@ docker run -d -v ~/notebooks:/notebooks --name notebooks ubuntu echo notebooks
 docker run -d -v ~/data:/data --name sprint_data ubuntu echo data
 ```
 
-Build the image from the root of the repo:
+Fork the repo and clone.
+
+Modify requirements in to your needs `requirements.txt`.
+
+Build the image from the root of the repo, for example:
 
 ```
 docker build -t calvingiles/data-science-docker-notebook .
