@@ -23,7 +23,7 @@ Modify requirements in to your needs `requirements.txt`.
 Build the image from the root of the repo, for example:
 
 ```
-docker build -t calvingiles/data-science-docker-notebook .
+docker build -t calvingiles/ds-notebook .
 ```
 
 then start a container from the image:
@@ -36,7 +36,7 @@ docker run \
 	-p 443:8888 \
 	--volumes-from data \
 	--volumes-from notebooks \
-	calvingiles/data-science-docker-notebook
+	calvingiles/ds-notebook
 ```
 
 ### Automated docker builds
